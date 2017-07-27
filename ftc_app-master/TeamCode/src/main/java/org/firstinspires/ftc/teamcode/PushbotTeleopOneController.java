@@ -55,9 +55,10 @@ import com.qualcomm.robotcore.util.RobotLog;
  * Remove or comment out the @Disabled line to add this opmode to the Driver Station OpMode list
  */
 
-@TeleOp(name="Pushbot: Teleop POV", group="Pushbot")
-@Disabled
-public class PushbotTeleopPOV_Linear extends LinearOpMode {
+@TeleOp(name="Pushbot: Teleop Single Controller", group="Pushbot")
+//@Disabled
+
+public class PushbotTeleopOneController extends LinearOpMode {
 
     /* Declare OpMode members. */
     HardwarePushbot robot           = new HardwarePushbot();   // Use a Pushbot's hardware
